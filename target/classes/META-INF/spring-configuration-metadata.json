@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "tdmember.master.jdbc",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.config.DataSourceConfig",
+      "sourceMethod": "public javax.sql.DataSource writeDataSource() "
+    },
+    {
+      "name": "tdmember.slave.jdbc",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.config.DataSourceConfig",
+      "sourceMethod": "public javax.sql.DataSource readDataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
